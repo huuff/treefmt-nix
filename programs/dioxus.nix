@@ -6,7 +6,7 @@
     (mkFormatterModule {
       name = "dx-fmt";
       package = "dioxus-cli";
-      args = "fmt";
+      args = ["fmt"];
       includes = [ "*.rs" ];
     })
   ];
