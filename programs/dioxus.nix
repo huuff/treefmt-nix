@@ -5,7 +5,7 @@
   imports = [
     (mkFormatterModule {
       name = "dx-fmt";
-      package = "dx-cli";
+      package = "dioxus-cli";
       args = "fmt";
       includes = [ "*.rs" ];
     })
